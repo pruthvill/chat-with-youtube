@@ -1,20 +1,30 @@
-Video Chat App
+Sure, here's the formatted Markdown:
+
+**Video Chat App**
+
 This application allows users to enter a video link and chat with the content of that video. A UI will be added shortly.
 
-Steps to Run:
-Obtain your client_secret.json from the Google Cloud Console with the YouTube Data v3 API enabled.
-Paste the client_secret.json into the root directory of this project.
-Install the required Python packages by running:
-bash
-Copy code
+**Steps to Run:**
+
+1. Obtain your `client_secret.json` from the Google Cloud Console with the YouTube Data v3 API enabled.
+2. Paste the `client_secret.json` into the root directory of this project.
+3. Install the required Python packages by running:
+
+```bash
 pip install -r requirements.txt
-Run the following command to pull the necessary data for Ollama:
-bash
-Copy code
+```
+
+4. Run the following command to pull the necessary data for Ollama:
+
+```bash
 ollama pull nomic-embed-text
-Start the application by running:
-bash
-Copy code
+```
+
+5. Start the application by running:
+
+```bash
 python app.py
-Once the application is running, enter the video link when prompted.
-Chat with the content of the video.
+```
+
+6. Once the application is running, enter the video link when prompted.
+7. Chat with the content of the video.
